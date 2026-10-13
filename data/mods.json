@@ -56,6 +56,11 @@
       "name": "artemnovichkov/xcode-mods",
       "url": "https://github.com/artemnovichkov/xcode-mods",
       "desc": "Сборка, тесты, консоль и SwiftUI-превью Xcode в панели Claude Code. Нужен Xcode 27+ с MCP-сервером в режиме без интерфейса, а для превью — ещё и терминал с kitty graphics protocol или Desktop. По клавише `x` отправляет Claude промпт вроде «почини тесты» (`$.prompt.submit`). 16⭐."
+    },
+    {
+      "name": "Kruhlikau/subagent-tuner",
+      "url": "https://github.com/Kruhlikau/subagent-tuner",
+      "desc": "Выбирает модель и уровень рассуждения для каждого субагента: спрашивает перед запуском в панели рядом с диалогом, подсказывает по типу задачи (ревью на Opus, поиск на Haiku) или применяет сохранённое значение по умолчанию поверх того, что указал агент. Запуски `claude -p`, SDK и форки не трогает. По данным валидатора, сетевых вызовов нет, процессы — только `sh` или `powershell.exe` для ожидания ответа, запись — в папку `.waits/` плагина. Установка: `/plugin install subagent-tuner --marketplace Kruhlikau/subagent-tuner`."
     }
   ]
 }
