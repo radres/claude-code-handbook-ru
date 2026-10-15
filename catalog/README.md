@@ -7,7 +7,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 
 Здесь собраны ссылки из нескольких публичных подборок. Если ищешь инструмент для редкой задачи, загляни в каталог. Качество проектов разное; мои рекомендации собраны в [главном README](../README.md).
 
-**Всего записей: 1404.**
+**Всего записей: 1405.**
 
 ## Разделы
 
@@ -20,7 +20,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 | [Hooks](./hooks.md) | связанные проекты и идеи | 8 |
 | [CLAUDE.md шаблоны и opinionated-сетапы](./templates.md) | авторские конфиги | 10 |
 | [Экосистема](./ecosystem.md) | утилиты, фреймворки, CLI-обёртки, статус-лайны | 237 |
-| [Русскоязычный контент](./ru-content.md) | Habr и YouTube | 12 |
+| [Русскоязычный контент](./ru-content.md) | Habr, YouTube и сайты | 13 |
 
 ## Чем отличается от главного README
 

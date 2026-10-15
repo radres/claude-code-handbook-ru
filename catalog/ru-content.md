@@ -5,9 +5,9 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 
 # Русскоязычный контент
 
-Статьи на Habr и курсы на YouTube про Claude Code и AI-агентов на русском.
+Статьи на Habr, курсы на YouTube и сайты с учебными материалами про Claude Code и AI-агентов на русском.
 
-**Записей:** 12.
+**Записей:** 13.
 
 📌 Раздел открыт для PR. Критерий — материал на русском про практику Claude Code или близкие темы (Claude Desktop, MCP, AI-агенты в проде), не агрегатор новостей.
 
@@ -32,3 +32,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 - [Claude Code: Полный гайд 2026 — настройка, MCP и Subagent Driven разработка](https://www.youtube.com/watch?v=_4ZcgpvDliA)
 - [Claude Code: ПОЛНЫЙ ГАЙД 2026 (2+ часовой курс)](https://www.youtube.com/watch?v=kFpX1FftH70)
 - [Создавай ИИ-агентов с Claude Code — ВСЕ функции за 22 минуты](https://www.youtube.com/watch?v=iwyHt30Ty0c)
+
+## Сайты и базы знаний
+
+- [База знаний по Claude Code: 14 навыков работы с ИИ-агентами](https://eugizus.ru/baza/)

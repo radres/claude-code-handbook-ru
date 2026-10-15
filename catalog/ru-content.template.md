@@ -5,7 +5,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 
 # Русскоязычный контент
 
-Статьи на Habr и курсы на YouTube про Claude Code и AI-агентов на русском.
+Статьи на Habr, курсы на YouTube и сайты с учебными материалами про Claude Code и AI-агентов на русском.
 
 **Записей:** <!-- @sum-count:catalog/ru-content -->.
 
@@ -22,3 +22,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 ## YouTube (видео и курсы)
 
 <!-- @list:catalog/ru-content.youtube -->
+
+## Сайты и базы знаний
+
+<!-- @list:catalog/ru-content.sites -->
