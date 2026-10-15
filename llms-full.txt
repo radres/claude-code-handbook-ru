@@ -22,7 +22,7 @@ CI gate: node scripts/build-readme.mjs --check
 
 Ежедневные разборы и обзоры релизов — в Telegram [@cc_consultant](https://t.me/cc_consultant). Связь и консультации: [@sfrangulov](https://t.me/sfrangulov).
 
-**Полный каталог без отбора (1404 записи по типам)** — в [catalog/](./catalog/README.md). В эту подборку вошли инструменты, которыми я пользуюсь в клиентских проектах, и популярные инструменты с большим числом установок.
+**Полный каталог без отбора (1405 записей по типам)** — в [catalog/](./catalog/README.md). В эту подборку вошли инструменты, которыми я пользуюсь в клиентских проектах, и популярные инструменты с большим числом установок.
 
 > 📄 **[Шпаргалка на 1 страницу A4 →](./cheatsheet/)** Все горячие клавиши, слэш-команды, MCP, память, рабочие процессы, скиллы, агенты и CLI-флаги на одном листе. Скачай [готовый PDF](./cheatsheet/cheatsheet.pdf) или открой [index.html](./cheatsheet/index.html) → `⌘P`.
 
@@ -723,7 +723,7 @@ claude plugin validate claude-code-playground/claude-code/mods/blast-radius
 
 ## Гайды и контент на русском
 
-> 📂 Полный список: **[12 записей →](./catalog/ru-content.md)**
+> 📂 Полный список: **[13 записей →](./catalog/ru-content.md)**
 
 ### Официальная документация — теперь на русском
 
@@ -915,7 +915,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 
 Здесь собраны ссылки из нескольких публичных подборок. Если ищешь инструмент для редкой задачи, загляни в каталог. Качество проектов разное; мои рекомендации собраны в [главном README](../README.md).
 
-**Всего записей: 1404.**
+**Всего записей: 1405.**
 
 ## Разделы
 
@@ -928,7 +928,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 | [Hooks](./hooks.md) | связанные проекты и идеи | 8 |
 | [CLAUDE.md шаблоны и opinionated-сетапы](./templates.md) | авторские конфиги | 10 |
 | [Экосистема](./ecosystem.md) | утилиты, фреймворки, CLI-обёртки, статус-лайны | 237 |
-| [Русскоязычный контент](./ru-content.md) | Habr и YouTube | 12 |
+| [Русскоязычный контент](./ru-content.md) | Habr, YouTube и сайты | 13 |
 
 ## Чем отличается от главного README
 
@@ -2140,9 +2140,9 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 
 # Русскоязычный контент
 
-Статьи на Habr и курсы на YouTube про Claude Code и AI-агентов на русском.
+Статьи на Habr, курсы на YouTube и сайты с учебными материалами про Claude Code и AI-агентов на русском.
 
-**Записей:** 12.
+**Записей:** 13.
 
 📌 Раздел открыт для PR. Критерий — материал на русском про практику Claude Code или близкие темы (Claude Desktop, MCP, AI-агенты в проде), не агрегатор новостей.
 
@@ -2167,6 +2167,10 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 - [Claude Code: Полный гайд 2026 — настройка, MCP и Subagent Driven разработка](https://www.youtube.com/watch?v=_4ZcgpvDliA)
 - [Claude Code: ПОЛНЫЙ ГАЙД 2026 (2+ часовой курс)](https://www.youtube.com/watch?v=kFpX1FftH70)
 - [Создавай ИИ-агентов с Claude Code — ВСЕ функции за 22 минуты](https://www.youtube.com/watch?v=iwyHt30Ty0c)
+
+## Сайты и базы знаний
+
+- [База знаний по Claude Code: 14 навыков работы с ИИ-агентами](https://eugizus.ru/baza/)
 
 
 ========================================================================

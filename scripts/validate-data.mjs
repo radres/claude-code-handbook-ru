@@ -161,6 +161,7 @@ const PATH_SCHEMAS = {
   'catalog/ecosystem.items': checkCompactEntry,
   'catalog/ru-content.habr': checkCompactEntry,
   'catalog/ru-content.youtube': checkCompactEntry,
+  'catalog/ru-content.sites': checkCompactEntry,
 };
 
 function resolveByPath(obj, parts) {
