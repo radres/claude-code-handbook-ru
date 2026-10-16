@@ -1,11 +1,14 @@
 # Claude Code — шпаргалка (1 страница)
 
-Шпаргалка по Claude Code на одном листе A4. Горячие клавиши, команды и настройки собраны в три колонки. Скачай [готовый PDF](./cheatsheet.pdf) или открой [HTML-версию](./index.html) для печати.
+Шпаргалка по Claude Code на одном листе A4. Горячие клавиши, команды и настройки собраны в три колонки. Открой [онлайн](https://sfrangulov.github.io/claude-code-handbook-ru/), скачай [готовый PDF](./cheatsheet.pdf) или открой [HTML-версию](./index.html) для печати.
 
 ## Артефакты
 
 - **[index.html](./index.html)** — source-of-truth, single-file (inline CSS, Google Fonts через CDN). Открыть в браузере → `⌘P` / `Ctrl+P` → Save as PDF, A4 portrait, без полей.
 - **[cheatsheet.pdf](./cheatsheet.pdf)** — pre-rendered PDF той же страницы для прямого скачивания.
+- **[social-card.html](./social-card.html)** — исходник картинок-превью 1280×640: `og.png` (превью ссылки на шпаргалку) и `social-preview.png` (Settings → Social preview репозитория). Команда для перерисовки — в комментарии в начале файла.
+
+Workflow `.github/workflows/pages.yml` публикует `index.html`, `cheatsheet.pdf` и `og.png` на [sfrangulov.github.io/claude-code-handbook-ru](https://sfrangulov.github.io/claude-code-handbook-ru/) при каждом пуше в `main`, который затрагивает `cheatsheet/`.
 
 ## Использование
 

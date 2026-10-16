@@ -4,7 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Claude Code — шпаргалка (1 страница)</title>
-  <meta name="description" content="Однострочная шпаргалка по Claude Code на русском: горячие клавиши, слэш-команды, MCP, память, приёмы, оркестрация, конфиг, skills, agents, CLI-флаги. A4 portrait, печатается в PDF.">
+  <meta name="description" content="Шпаргалка по Claude Code на русском на одной странице: горячие клавиши, слэш-команды, MCP, память, приёмы, оркестрация, конфиг, скиллы, агенты, CLI-флаги. A4, есть готовый PDF.">
+  <link rel="canonical" href="https://sfrangulov.github.io/claude-code-handbook-ru/">
+  <!-- Превью ссылки в Telegram, Slack, X. Картинка рисуется из social-card.html. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Claude Code Handbook на русском">
+  <meta property="og:title" content="Claude Code — шпаргалка на одной странице">
+  <meta property="og:description" content="Горячие клавиши, слэш-команды, MCP, память, скиллы, агенты и CLI-флаги на одном листе A4. HTML и готовый PDF.">
+  <meta property="og:url" content="https://sfrangulov.github.io/claude-code-handbook-ru/">
+  <meta property="og:image" content="https://sfrangulov.github.io/claude-code-handbook-ru/og.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⌨️</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -267,6 +279,7 @@
       background: oklch(0.97 0.04 85); border: 1px solid oklch(0.75 0.12 80);
       border-radius: 3px; font-size: 0.75rem; color: oklch(0.40 0.10 70);
     }
+    .print-hint a { color: inherit; font-weight: 600; }
     .print-hint kbd {
       font-family: var(--font-mono); font-size: 0.72rem;
       background: oklch(0.99 0 0); border: 1px solid oklch(0.65 0.13 70); border-radius: 2px;
@@ -276,7 +289,7 @@
 </head>
 <body>
   <div class="print-hint no-print">
-    📄 Печать в PDF: <kbd>⌘</kbd>+<kbd>P</kbd> (macOS) или <kbd>Ctrl</kbd>+<kbd>P</kbd> (Linux/Win) → Save as PDF, формат A4 portrait, без полей.
+    📄 <a href="cheatsheet.pdf">Скачать готовый PDF</a> или напечатать самому: <kbd>⌘</kbd>+<kbd>P</kbd> (macOS) или <kbd>Ctrl</kbd>+<kbd>P</kbd> (Linux/Win) → Save as PDF, формат A4 portrait, без полей.
   </div>
 
   <div class="page">

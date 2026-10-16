@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--
+  Карточка-превью 1280×640 для соцсетей в двух вариантах:
+    #cheatsheet → cheatsheet/og.png              (og:image страницы шпаргалки)
+    #repo       → cheatsheet/social-preview.png  (Settings → Social preview репо)
+  Перерисовать (headless Chrome, macOS):
+    CHROME=$(ls -d ~/Applications/"Google Chrome.app" /Applications/"Google Chrome.app" 2>/dev/null | head -1)
+    for v in cheatsheet repo; do
+      out=$([ $v = repo ] && echo social-preview || echo og)
+      "$CHROME/Contents/MacOS/Google Chrome" --headless --hide-scrollbars --window-size=1280,640 \
+        --virtual-time-budget=15000 --screenshot="cheatsheet/$out.png" \
+        "file://$(pwd)/cheatsheet/social-card.html#$v"
+    done
+-->
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Карточка-превью</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&subset=cyrillic&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* Палитра секций та же, что в index.html. */
+    :root {
+      --keyboard-h:  oklch(0.46 0.13 240);  --keyboard-bg:  oklch(0.955 0.030 240);
+      --slash-h:     oklch(0.46 0.14 295);  --slash-bg:     oklch(0.955 0.030 295);
+      --mcp-h:       oklch(0.50 0.11 200);  --mcp-bg:       oklch(0.955 0.030 200);
+      --memory-h:    oklch(0.55 0.13 75);   --memory-bg:    oklch(0.955 0.035 80);
+      --workflows-h: oklch(0.52 0.16 25);   --workflows-bg: oklch(0.955 0.030 25);
+      --config-h:    oklch(0.55 0.15 50);   --config-bg:    oklch(0.955 0.035 50);
+      --skills-h:    oklch(0.48 0.12 155);  --skills-bg:    oklch(0.955 0.030 155);
+      --orch-h:      oklch(0.48 0.15 330);  --orch-bg:      oklch(0.955 0.032 330);
+
+      --ink:       oklch(0.22 0.020 240);
+      --ink-mute:  oklch(0.45 0.010 240);
+      --footer-bg: oklch(0.22 0.020 240);
+      --footer-tx: oklch(0.92 0.010 240);
+      --footer-mute: oklch(0.72 0.010 240);
+
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+    }
+
+    html, body { width: 1280px; height: 640px; overflow: hidden; }
+    body {
+      font-family: var(--font-sans);
+      color: var(--ink);
+      background: oklch(0.995 0.003 240);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Цветная полоса сверху — по сегменту на секцию шпаргалки. */
+    .stripe { display: flex; height: 14px; }
+    .stripe span { flex: 1; }
+
+    .card { display: none; flex: 1; flex-direction: column; padding: 64px 80px 0; }
+    body.v-cheatsheet .card.cheatsheet,
+    body.v-repo .card.repo { display: flex; }
+
+    .kicker {
+      font-family: var(--font-mono);
+      font-size: 26px;
+      font-weight: 600;
+      color: var(--ink-mute);
+      letter-spacing: 0.01em;
+    }
+    h1 {
+      margin-top: 22px;
+      font-size: 96px;
+      font-weight: 800;
+      line-height: 1.02;
+      letter-spacing: -0.035em;
+    }
+    .sub {
+      margin-top: 26px;
+      max-width: 1060px;
+      font-size: 34px;
+      line-height: 1.3;
+      color: var(--ink-mute);
+    }
+    .chips { margin-top: auto; margin-bottom: 48px; display: flex; flex-wrap: wrap; gap: 10px; }
+    .chip {
+      padding: 8px 14px;
+      border-radius: 9px;
+      font-size: 21px;
+      font-weight: 600;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 76px;
+      padding: 0 80px;
+      background: var(--footer-bg);
+      color: var(--footer-tx);
+      font-family: var(--font-mono);
+      font-size: 24px;
+    }
+    footer .mute { color: var(--footer-mute); }
+
+    .c-keyboard  { color: var(--keyboard-h);  background: var(--keyboard-bg); }
+    .c-slash     { color: var(--slash-h);     background: var(--slash-bg); }
+    .c-mcp       { color: var(--mcp-h);       background: var(--mcp-bg); }
+    .c-memory    { color: var(--memory-h);    background: var(--memory-bg); }
+    .c-workflows { color: var(--workflows-h); background: var(--workflows-bg); }
+    .c-config    { color: var(--config-h);    background: var(--config-bg); }
+    .c-skills    { color: var(--skills-h);    background: var(--skills-bg); }
+    .c-orch      { color: var(--orch-h);      background: var(--orch-bg); }
+  </style>
+</head>
+<body>
+  <div class="stripe">
+    <span style="background: var(--keyboard-h)"></span>
+    <span style="background: var(--slash-h)"></span>
+    <span style="background: var(--mcp-h)"></span>
+    <span style="background: var(--memory-h)"></span>
+    <span style="background: var(--workflows-h)"></span>
+    <span style="background: var(--config-h)"></span>
+    <span style="background: var(--skills-h)"></span>
+    <span style="background: var(--orch-h)"></span>
+  </div>
+
+  <section class="card cheatsheet">
+    <div class="kicker">Шпаргалка · A4 · HTML и PDF</div>
+    <h1>Claude Code<br>на одной странице</h1>
+    <div class="sub">Горячие клавиши, слэш-команды, MCP, скиллы и CLI-флаги</div>
+    <div class="chips">
+      <span class="chip c-keyboard">Клавиши</span>
+      <span class="chip c-slash">Слэш-команды</span>
+      <span class="chip c-mcp">MCP</span>
+      <span class="chip c-memory">Память</span>
+      <span class="chip c-workflows">Приёмы</span>
+      <span class="chip c-orch">Оркестрация</span>
+      <span class="chip c-config">Конфиг</span>
+      <span class="chip c-skills">Скиллы</span>
+    </div>
+  </section>
+
+  <section class="card repo">
+    <div class="kicker">Claude Code Handbook</div>
+    <h1>Claude Code<br>на русском</h1>
+    <div class="sub">Руководство, шпаргалка и каталог из 1400+ инструментов</div>
+    <div class="chips">
+      <span class="chip c-skills">Скиллы</span>
+      <span class="chip c-workflows">Хуки</span>
+      <span class="chip c-orch">Субагенты</span>
+      <span class="chip c-slash">Плагины</span>
+      <span class="chip c-mcp">MCP-серверы</span>
+      <span class="chip c-memory">CLAUDE.md</span>
+      <span class="chip c-config">Стоимость</span>
+    </div>
+  </section>
+
+  <footer>
+    <span class="url">github.com/sfrangulov/claude-code-handbook-ru</span>
+    <span class="mute">t.me/cc_consultant</span>
+  </footer>
+
+  <script>
+    var v = location.hash.slice(1) === 'repo' ? 'repo' : 'cheatsheet';
+    document.body.classList.add('v-' + v);
+    if (v === 'cheatsheet') {
+      document.querySelector('footer .url').textContent = 'sfrangulov.github.io/claude-code-handbook-ru';
+    }
+  </script>
+</body>
+</html>
