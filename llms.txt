@@ -13,7 +13,7 @@
 - [Hooks (8 записей)](https://github.com/sfrangulov/claude-code-handbook-ru/blob/main/catalog/hooks.md): shell-команды на события сессии (формат, безопасность, нотификации)
 - [MCP-серверы (810 записей)](https://github.com/sfrangulov/claude-code-handbook-ru/blob/main/catalog/mcp-servers.md): подключение внешних инструментов по Model Context Protocol
 - [Русскоязычный контент (13 записей)](https://github.com/sfrangulov/claude-code-handbook-ru/blob/main/catalog/ru-content.md): Habr, vc.ru, DTF, YouTube
-- [Экосистема (237 записей)](https://github.com/sfrangulov/claude-code-handbook-ru/blob/main/catalog/ecosystem.md): соседние инструменты, конкуренты, утилиты
+- [Экосистема (238 записей)](https://github.com/sfrangulov/claude-code-handbook-ru/blob/main/catalog/ecosystem.md): соседние инструменты, конкуренты, утилиты
 
 ## Точки входа
 
