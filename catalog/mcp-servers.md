@@ -9,7 +9,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 
 **Совет практика:** не подключай больше 5–7 серверов одновременно — каждый расходует контекст на discovery. Сначала смотри курируемую выборку в [главном README](../README.md#mcp-серверы), потом сюда — за специализированными.
 
-**Записей:** 810.
+**Записей:** 811.
 
 📌 Курируемая подборка — в [главном README](../README.md#mcp-серверы). Здесь — широкая выборка для поиска и SEO.
 
@@ -779,6 +779,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 - [vitorpavinato/ncbi-mcp-server](https://github.com/vitorpavinato/ncbi-mcp-server)
 - [vivekvells/mcp-pandoc](https://github.com/vivekVells/mcp-pandoc)
 - [VmLia/books-mcp-server](https://github.com/VmLia/books-mcp-server)
+- [voygr-tech/placecall](https://github.com/voygr-tech/placecall)
 - [W3Ship/w3ledger-mcp-server](https://github.com/baskcart/w3ledger-mcp-server)
 - [W3Ship/w3ship-mcp-server](https://github.com/baskcart/w3ship-mcp-server)
 - [wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)
