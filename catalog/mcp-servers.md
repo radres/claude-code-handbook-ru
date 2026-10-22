@@ -9,7 +9,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 
 **Совет практика:** не подключай больше 5–7 серверов одновременно — каждый расходует контекст на discovery. Сначала смотри курируемую выборку в [главном README](../README.md#mcp-серверы), потом сюда — за специализированными.
 
-**Записей:** 811.
+**Записей:** 812.
 
 📌 Курируемая подборка — в [главном README](../README.md#mcp-серверы). Здесь — широкая выборка для поиска и SEO.
 
@@ -227,6 +227,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 - [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright)
 - [exoticknight/mcp-file-merger](https://github.com/exoticknight/mcp-file-merger)
 - [ExpertVagabond/solana-mcp-server](https://github.com/ExpertVagabond/solana-mcp-server)
+- [f-o-x11/deed-page-skill](https://github.com/f-o-x11/deed-page-skill)
 - [f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server)
 - [FastAlertNow/mcp-server](https://github.com/FastAlertNow/mcp-server)
 - [fasuizu-br/brainiall-mcp-server](https://github.com/fasuizu-br/brainiall-mcp-server)
