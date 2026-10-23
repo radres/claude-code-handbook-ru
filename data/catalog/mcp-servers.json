@@ -841,6 +841,10 @@
       "url": "https://github.com/ExpertVagabond/solana-mcp-server"
     },
     {
+      "name": "f-o-x11/deed-page-skill",
+      "url": "https://github.com/f-o-x11/deed-page-skill"
+    },
+    {
       "name": "f4ww4z/mcp-mysql-server",
       "url": "https://github.com/f4ww4z/mcp-mysql-server"
     },
@@ -1591,10 +1595,6 @@
     {
       "name": "kukapay/cryptopanic-mcp-server",
       "url": "https://github.com/kukapay/cryptopanic-mcp-server"
-    },
-    {
-      "name": "kunallunia/twitter-mcp",
-      "url": "https://github.com/LuniaKunal/mcp-twitter"
     },
     {
       "name": "KuvopLLC/better-bear",
@@ -3047,6 +3047,10 @@
     {
       "name": "VmLia/books-mcp-server",
       "url": "https://github.com/VmLia/books-mcp-server"
+    },
+    {
+      "name": "voygr-tech/placecall",
+      "url": "https://github.com/voygr-tech/placecall"
     },
     {
       "name": "W3Ship/w3ledger-mcp-server",
