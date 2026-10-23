@@ -9,7 +9,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 
 **Совет практика:** не подключай больше 5–7 серверов одновременно — каждый расходует контекст на discovery. Сначала смотри курируемую выборку в [главном README](../README.md#mcp-серверы), потом сюда — за специализированными.
 
-**Записей:** 812.
+**Записей:** 811.
 
 📌 Курируемая подборка — в [главном README](../README.md#mcp-серверы). Здесь — широкая выборка для поиска и SEO.
 
@@ -416,7 +416,6 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 - [kshern/mcp-tavily](https://github.com/kshern/mcp-tavily)
 - [ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb)
 - [kukapay/cryptopanic-mcp-server](https://github.com/kukapay/cryptopanic-mcp-server)
-- [kunallunia/twitter-mcp](https://github.com/LuniaKunal/mcp-twitter)
 - [KuvopLLC/better-bear](https://github.com/KuvopLLC/better-bear/tree/main/mcp-server)
 - [KyrieTangSheng/mcp-server-nationalparks](https://github.com/KyrieTangSheng/mcp-server-nationalparks)
 - [KyuRish/fiverr-mcp-server](https://github.com/KyuRish/fiverr-mcp-server)
