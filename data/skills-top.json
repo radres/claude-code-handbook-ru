@@ -38,22 +38,16 @@
       "count": 981400
     },
     {
-      "slug": "designed-by-ai/skills@design-mobile-apps",
-      "url": "https://skills.sh/designed-by-ai/skills/design-mobile-apps",
-      "desc": "Рисует экраны мобильного приложения через платный сервис Sleek, правит проекты Sleek и переносит готовый дизайн в React Native или HTML. Нужен ключ `SLEEK_API_KEY`: бесплатных кредитов хватает примерно на один дизайн, дальше нужен тариф Pro за $69 в месяц. Это официальный скилл Sleek, тот же код лежит в `sleekdotdesign/agent-skills`.",
-      "count": 977200
-    },
-    {
       "slug": "mattpocock/skills@domain-modeling",
       "url": "https://skills.sh/mattpocock/skills/domain-modeling",
       "desc": "Строит и уточняет модель предметной области проекта: записывает термины в `GLOSSARY.md`, а решения — в ADR. Включай, когда команда и агент называют одно и то же разными словами.",
-      "count": 869500
+      "count": 871500
     },
     {
       "slug": "mattpocock/skills@codebase-design",
       "url": "https://skills.sh/mattpocock/skills/codebase-design",
       "desc": "Единый словарь для проектирования «глубоких модулей»: много возможностей за узким интерфейсом, границы в подходящих местах. Бери, когда спор идёт о границах, а команда называет одно и то же то компонентом, то сервисом, то API.",
-      "count": 843800
+      "count": 846100
     },
     {
       "slug": "vercel-labs/agent-skills@vercel-react-best-practices",
@@ -65,13 +59,13 @@
       "slug": "mattpocock/skills@diagnosing-bugs",
       "url": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
       "desc": "Помогает диагностировать сложные баги и падение производительности. Сначала требует сделать быструю проверку, которая воспроизводит именно этот баг и даёт результат «прошло или упало», и только потом искать причину. Срабатывает, когда сообщаешь, что что-то сломалось, падает или тормозит.",
-      "count": 828400
+      "count": 830300
     },
     {
       "slug": "mattpocock/skills@code-review",
       "url": "https://skills.sh/mattpocock/skills/code-review",
       "desc": "Проверяет изменения от заданной точки (коммит, ветка, тег) по двум осям: соблюдены ли стандарты репозитория и сделано ли то, что просили в задаче или спецификации. Обе проверки идут в параллельных субагентах, и отчёты выводятся рядом, не смешиваясь. Если стандарты в репозитории не описаны, ищет в диффе запахи кода по Фаулеру. Бери перед мержем ветки или PR, когда есть задача, с которой можно сверить код.",
-      "count": 782800
+      "count": 785100
     },
     {
       "slug": "vercel-labs/agent-skills@web-design-guidelines",
@@ -89,7 +83,13 @@
       "slug": "leonxlnx/taste-skill@design-taste-frontend",
       "url": "https://skills.sh/leonxlnx/taste-skill/design-taste-frontend",
       "desc": "Задаёт арт-дирекцию лендингам, сайтам и экранам приложений, чтобы страница не выглядела типовой сгенерированной. Скрипт предлагает три направления из библиотеки, собранной по 247 сайтам из галерей вроде Awwwards, затем проверяет вёрстку в настоящем браузере и по скриншотам на трёх ширинах. Нужны Node 22+ и Chrome, картинки скилл берёт из открытых коллекций музеев и NASA.",
-      "count": 660700
+      "count": 662800
+    },
+    {
+      "slug": "microsoft/azure-skills@microsoft-foundry",
+      "url": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
+      "desc": "Официальный скилл Microsoft для работы с Microsoft Foundry: создаёт проект и ресурсы, разворачивает модели и агентов, запускает оценки и fine-tuning, разбирается с квотами и правами доступа. Нужен Azure Developer CLI (`azd`), расширение `microsoft.foundry` скилл при первом запуске ставит сам. Бери, только если строишь агентов или разворачиваешь модели в Azure: для обычного деплоя в Azure у Microsoft есть отдельные скиллы.",
+      "count": 575000
     }
   ]
 }

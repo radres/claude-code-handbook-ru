@@ -54,12 +54,16 @@ const MAX_ROWS = 15;
 // general Claude Code handbook. hyperframes-animation / -creative — retired
 // upstream on 2026-10-21 (heygen-com/hyperframes#5651, folded into the
 // `hyperframes` skill as guides), but skills.sh still counts their installs.
+// designed-by-ai/* — a 19-star mirror of sleekdotdesign/agent-skills with
+// ~1M installs, while Sleek's own setup docs install from sleekdotdesign; the
+// count doesn't reflect community use, and the skill fronts a paid service.
 // The filter runs before the top-N cut, so the list always backfills to
 // MAX_ROWS with allowed skills.
 const DENYLIST_PREFIXES = [
   'larksuite/',
   'heygen-com/hyperframes@hyperframes-animation',
   'heygen-com/hyperframes@hyperframes-creative',
+  'designed-by-ai/',
 ];
 
 function isDenied(slug) {
