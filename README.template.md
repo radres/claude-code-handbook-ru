@@ -117,6 +117,10 @@ Anthropic свёл опыт команд к циклу **модель угроз
 
 > 🔁 Каждый проход улучшает следующий: подтверждённые находки и патчи учитываются в модели угроз и в контексте следующей проверки. Готовый GitHub Action с Claude-ревьюером для каждого PR — [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review).
 
+### Что почитать про обвязку
+
+<!-- @list:misc.harnessReading -->
+
 ---
 
 ## Skills
@@ -208,9 +212,13 @@ herdr                                          # ctrl+b q — detach, herdr — 
 
 Есть и более нишевые инструменты: [herdr-nvim](https://github.com/ChmaraX/herdr-nvim) встраивает Neovim в рабочее пространство, [herdr-board](https://github.com/nelsonPires5/herdr-board) создаёт канбан-доску, где каждая карточка — промпт в видимой панели, [herdr-spreader](https://github.com/yuk1ty/herdr-spreader) открывает все панели в нужном расположении из одного YAML, а [Heeler](https://github.com/ZingerLittleBee/Heeler) — нативная iOS-консоль с настоящим терминалом на libghostty.
 
+**Альтернатива herdr — [Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios)** (5.6k⭐, Go): мультиплексор и мозаичный оконный менеджер с режимами как в vim. Он отслеживает состояние агентов и собирает их запросы на подтверждение во входящие. Сессии сохраняются после отключения клиента, а встроенная прослойка, которая имитирует tmux, позволяет запускать команды агентов Claude Code (agent teams).
+
 ### tmux — если новая среда не нужна
 
 tmux уже стоит у всех, и половина инструментов в этой нише построена на его основе. Начинать стоит с `tmux-cli`: это не оркестратор, а **базовый инструмент**, с помощью которого агент может запустить интерактивную программу и прочитать её вывод. Именно на таком инструменте построены скиллы проверки, о которых [Thariq рассказывает](./docs/tips-ru.md#thariq--как-мы-используем-скиллы-внутри-anthropic--17-марта-2026) как о внутренней практике Anthropic (`tmux-cli-driver` в их списке примеров).
+
+Если tmux для агентов в новинку, начни с гайда [Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling](https://crystl.dev/guides/tmux-for-ai-agents/): флаги `claude --worktree --tmux`, готовый к работе `.tmux.conf`, `send-keys` и `capture-pane`, отслеживание агентов в строке состояния и отдельный раздел о том, где возможности tmux заканчиваются. Гайд написали авторы платного crystl, но полезная часть от продукта не зависит.
 
 <!-- @list:terminal-agents.tmux -->
 

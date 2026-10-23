@@ -5,6 +5,7 @@
     { "name": "backstabslash/goccc", "url": "https://github.com/backstabslash/goccc", "desc": "Калькулятор стоимости и строка состояния на Go в одном исполняемом файле: разбивка по модели, дню, проекту и ветке." },
     { "name": "Ventuss-OvO/cc-costline", "url": "https://github.com/Ventuss-OvO/cc-costline", "desc": "Строка состояния с тратами за 7 и 30 дней." },
     { "name": "fabioconcina/claumon", "url": "https://github.com/fabioconcina/claumon", "desc": "Панель для Pro/Max: шкалы лимитов с обновлением в реальном времени, откалиброванные прогнозы расхода, стоимость сессий, просмотр памяти. Один исполняемый файл, настройка не нужна." },
-    { "name": "EricAndrechek/Pacer", "url": "https://github.com/EricAndrechek/Pacer", "desc": "Нативное приложение для macOS: учёт токенов и стоимости, контроль темпа расхода с учётом лимитов, разбивка по проектам." }
+    { "name": "EricAndrechek/Pacer", "url": "https://github.com/EricAndrechek/Pacer", "desc": "Нативное приложение для macOS: учёт токенов и стоимости, контроль темпа расхода с учётом лимитов, разбивка по проектам." },
+    { "name": "kelviq/tare", "url": "https://github.com/kelviq/tare", "desc": "Скилл, который учит Claude Code читать собственные логи запросов. Спрашиваешь обычными словами, например «почему вчера кончился лимит», и он разбирает, куда ушли токены. Без аккаунтов и настройки: `npx skills add kelviq/tare -g -y --copy --agent claude-code`. 297⭐." }
   ]
 }

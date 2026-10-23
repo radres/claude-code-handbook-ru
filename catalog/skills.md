@@ -60,7 +60,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 - [CSV Data Summarizer](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill)
 - [ctf-skills](https://github.com/ljagiello/ctf-skills)
 - [deep-dive](https://github.com/kimsb2429/claude-skills)
-- [diagram-design](https://github.com/supabase/agent-skills)
+- [diagram-design](https://github.com/cathrynlavery/diagram-design)
 - [Dimillian Skills](https://github.com/Dimillian/Skills)
 - [docx](https://github.com/anthropics/skills/tree/main/skills/docx)
 - [Emdash Skills](https://github.com/heymegabyte/claude-skills)
