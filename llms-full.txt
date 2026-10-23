@@ -1164,7 +1164,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 - [cloudmanic/herdr-plus](https://github.com/cloudmanic/herdr-plus)
 - [Common Workflows](https://docs.anthropic.com/en/docs/claude-code/common-workflows)
 - [Computer Use from CLI](https://code.claude.com/docs/en/computer-use)
-- [Context Engineering Guide](https://www.anthropic.com/research/long-running-Claude)
+- [Context Engineering Guide](https://www.anthropic.com/research/effective-context-engineering-for-ai-agents)
 - [Continuous Claude](https://github.com/AnandChowdhary/continuous-claude)
 - [Continuous-Claude-v2](https://github.com/parcadei/Continuous-Claude-v3)
 - [craft-statusline](https://github.com/derjochenmeyer/claude-code-craft-statusline)
