@@ -51,9 +51,16 @@ const MAX_ROWS = 15;
 // Skills excluded from the curated top list regardless of install-count.
 // Matched by prefix of the `owner/repo@skill` slug. larksuite/* — Lark-workflow
 // skills (meeting-summary, standup-report): high installs but too narrow for a
-// general Claude Code handbook. The filter runs before the top-N cut, so the
-// list always backfills to MAX_ROWS with allowed skills.
-const DENYLIST_PREFIXES = ['larksuite/'];
+// general Claude Code handbook. hyperframes-animation / -creative — retired
+// upstream on 2026-10-21 (heygen-com/hyperframes#5651, folded into the
+// `hyperframes` skill as guides), but skills.sh still counts their installs.
+// The filter runs before the top-N cut, so the list always backfills to
+// MAX_ROWS with allowed skills.
+const DENYLIST_PREFIXES = [
+  'larksuite/',
+  'heygen-com/hyperframes@hyperframes-animation',
+  'heygen-com/hyperframes@hyperframes-creative',
+];
 
 function isDenied(slug) {
   return DENYLIST_PREFIXES.some((p) => slug.startsWith(p));
