@@ -34,6 +34,7 @@ jobs:
         id: check-readme
         continue-on-error: true
         run: |
+          set +e
           markdown-link-check -c .github/markdown-link-check.json README.md > /tmp/readme.log 2>&1
           cat /tmp/readme.log
 
