@@ -9,7 +9,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 
 **Совет практика:** не подключай больше 5–7 серверов одновременно — каждый расходует контекст на discovery. Сначала смотри курируемую выборку в [главном README](../README.md#mcp-серверы), потом сюда — за специализированными.
 
-**Записей:** 811.
+**Записей:** 812.
 
 📌 Курируемая подборка — в [главном README](../README.md#mcp-серверы). Здесь — широкая выборка для поиска и SEO.
 
@@ -616,6 +616,7 @@ Edit the template or the JSON data, then run: node scripts/build-readme.mjs
 - [r-huijts/xcode-mcp-server](https://github.com/r-huijts/xcode-mcp-server)
 - [r33drichards/mcp-js](https://github.com/r33drichards/mcp-js)
 - [rad-security/mcp-server](https://github.com/rad-security/mcp-server)
+- [radres/call-me](https://github.com/radres/call-me)
 - [rafapra3008/cervellaswarm](https://github.com/rafapra3008/cervellaswarm/tree/main/packages/mcp-server)
 - [ragieai/mcp-server](https://github.com/ragieai/ragie-mcp-server)
 - [raveenb/fal-mcp-server](https://github.com/luminarylane/fal-mcp-server)
